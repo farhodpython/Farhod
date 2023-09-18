@@ -1,2 +1,2 @@
-# Farhod
+# Oʻyinlar
 Farhod
