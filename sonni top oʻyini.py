@@ -1,7 +1,7 @@
+print("Keling sonni top oʻyinini oʻynaymiz!")
 t=True 
 while t:
     import random
-    print("Keling sonni top oʻyinini oʻynaymiz!")
     print("1 dan 10 gacha son oʻyladim. Topa olasizmi?")
     a=int(random.randint(1,10))
     n=int(input())
@@ -16,7 +16,7 @@ while t:
             if n<a:print("Topa olmadingiz men oʻylagan son bundan katta");n=int(input())
             else:print("Topa olmadingiz men oʻylagan son bundan kichik"); n=int(input())
     y=0
-    m=str(input("Endi siz 1 dan 10 gacha son oʻylang men topaman."))
+    m=str(input("Endi siz 1 dan 10 gacha son oʻylang men topaman. "))
     k=random.randint(1,10)
     for i in range(1,11):
                 print(k)
@@ -30,9 +30,9 @@ while t:
                 else:
                     y+=1
                     k=random.randint(k+1,10)
-    if s==y:print(f"Durrang siz ham {s} ta urinishda men ham {y} ta urinishda topdik.")
-    elif s>y:print(f"Siz {s} ta urishda topdningiz Men esa {y} urinishda Men yutdim!!")
-    else:print(f"Siz {s} ta urishda topdningiz Men esa {y} urinishda Siz yutdingiz!!")
-    n=input("Yana oʻynaysizmi (ha/yoq) ")
-    if n=="yoq": t=False
+    if s==y:print(f"Durrang siz ham {s} ta urinishda. Men ham {y} ta urinishda topdik.")
+    elif s>y:print(f"Siz {s} ta urishda topdningiz. Men esa {y} urinishda. Men yutdim!!")
+    else:print(f"Siz {s} ta urishda topdningiz. Men esa {y} urinishda. Siz yutdingiz!! TABRIKLAYMAN!!!")
+    n=input("Yana oʻynaysizmi (1-ha/yoq-0) ")
+    if n=='0': t=False
 if t==False:print("Bizning oʻynimizda oʻynaganingiz uchun raxmat!! Tuzuvchi: Ergashov Farhod")
